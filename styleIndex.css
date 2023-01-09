@@ -1,0 +1,147 @@
+.entetePage {
+     width: 100%;
+     background: rgb(3, 53, 36);
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     z-index: 1000;
+ }
+ .entetePage .logoBona {
+     padding: 5px;
+     position: relative;
+     width: 10%;
+     height: 10%;
+ }
+ .entetePage h1{
+     color: brown;
+     text-shadow: 2px 2px 3px red ;
+     font-size: 2rem;
+ }
+ .corpsPageAccueil {
+     margin-left: 12%;
+     margin-right: 12%;
+     z-index: 100;
+ }
+ .corpsPageAccueil{
+     background-color: rgb(203, 108, 6);
+     padding: 20px;
+     position: relative;
+     margin-top:0px;
+     margin-right: 2px;
+     margin-left: 2px;
+ }
+ .menuPageAccueil{
+     background-color:  rgb(242, 199, 152);
+     padding: 5px;
+     font-size: large;
+     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     color: rgb(10, 10, 102);
+ }
+ .menuPageAccueil .listeMenu {
+     list-style: none;
+     display: flex;
+ }
+ .menuPageAccueil .listeMenu .elementDeLaListe{
+     margin-left: auto;
+     margin-right: auto;
+ }
+ .menuPageAccueil .listeMenu .elementDeLaListe a:hover{
+     color: rgb(255, 9, 9);
+     opacity: 75%;
+ }
+ .MotAccueil{
+     margin-left: auto;
+     margin-right: auto;
+     font-size: x-large;
+     font-weight: bolder;
+     font-family: Arial, Helvetica, sans-serif;
+     color: rgb(0, 0, 0);
+ }
+ .CarrouselPhotosForma{
+     display: block;
+     opacity: 100%;
+ }
+ .ImageCarroussel:hover{
+     transform: scale(1.1);
+     transition: 1s;
+ }
+ .ImagesLiens{
+     border: 2px rgb(72, 255, 0) ridge;
+ }
+ a{
+     text-decoration: none;
+     color: rgb(0, 47, 255);
+ }
+ .listeImagPageWeb{
+     list-style: none;
+     display: inline-flex;
+ }
+ 
+ 
+ .ElementListeImagepageWeb{
+     margin: 10pt;
+     border-radius: 10%;
+     border-color: blue;
+ }
+ .ListePageWeb{
+     list-style:square;
+     font-weight: 300;
+     font-size: 20px;
+ }
+ 
+ @media(max-width: 450px){
+     .entetePage .logoBona {
+         width: 100px;
+         height: 100px;
+     }
+     .entetePage h1{
+         font-size: 17px;
+         text-align: center;
+     }
+ 
+     .menuPageAccueil .listeMenu {
+         display: block;
+     }
+     .MotAccueil{
+         font-size: 14px;
+         text-decoration: solid;
+         font-style: italic;
+     }
+     .ImageCarroussel{
+         width: 25%;
+         height: 100px;
+         border: 2px red ridge;
+     }
+ }
+ .ImageCarroussel{
+     border: 2px red ridge;
+     
+ }
+ .mot1{
+     color: rgb(167, 6, 38);
+ }
+ .mot2{
+     color: rgb(30, 167, 6);
+ }
+ .mot3{
+     color: rgb(188, 156, 11);
+ }
+ .MotDeFinDePage{
+     font-size: large;
+ }
+ .copyRight{
+     padding: 10px;
+     color: darkslategrey;
+     font-weight: bold;
+     font: optional;
+     text-decoration: dotted red;
+     padding: 10px;
+     margin: 10px;
+ }
+ .King{
+     color: green;
+     font-style: oblique;
+     font-weight: 100;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     
+ }
